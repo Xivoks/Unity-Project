@@ -6,7 +6,7 @@ public class smoothTransform : MonoBehaviour
 {
     [SerializeField] Transform target;
     float smoothTime = 2f;
-    float yVelocity = 0.0f;
+    float yVelocity = 3f;
 
     void Update()
     {
