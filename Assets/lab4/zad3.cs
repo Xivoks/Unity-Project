@@ -4,19 +4,17 @@ using UnityEngine;
 
 public class zad3 : MonoBehaviour
 {
-        public GameObject player;
-
+    [SerializeField] private Transform followTransform;
     private Vector3 offset;
-
-    // Start is called before the first frame update
+    
     void Start()
     {
-        offset = transform.position - player.transform.position;
+        offset = transform.position - followTransform.transform.position;
     }
 
-    // Update is called once per frame
-    void LateUpdate()
+    private void LateUpdate()
     {
-        transform.position = player.transform.position + offset;
+        Vector3 nextPosition = followTransform.position + offset;
+        this.transform.position = nextPosition;
     }
-    }
+}
