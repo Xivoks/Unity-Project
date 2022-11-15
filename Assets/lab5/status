@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "Texturing_1",
+    "nodeType": "Texturing",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_texturing  --input \"C:/Users/Xivoks/Documents/MeshroomCache/Meshing/e209f7467361316a3f1489deb14150d3651f9df1/densePointCloud.abc\" --imagesFolder \"C:/Users/Xivoks/Documents/MeshroomCache/PrepareDenseScene/6433b78b36a156fbccd5cb8350a18866d40c7532\" --inputMesh \"C:/Users/Xivoks/Documents/MeshroomCache/MeshFiltering/e44b5c9098f78bcb284952b1c97b270cf9216c64/mesh.obj\" --textureSide 8192 --downscale 2 --outputTextureFileType png --unwrapMethod Basic --useUDIM True --fillHoles False --padding 5 --multiBandDownscale 4 --multiBandNbContrib 1 5 10 0 --useScore True --bestScoreThreshold 0.1 --angleHardThreshold 90.0 --processColorspace sRGB --correctEV False --forceVisibleByAllVertices False --flipNormals False --visibilityRemappingMethod PullPush --subdivisionTargetRatio 0.8 --verboseLevel info --output \"C:/Users/Xivoks/Documents/MeshroomCache/Texturing/0720007d51f7555bc3c3d46a3ec7f21661193a98\"",
+    "env": null,
+    "startDateTime": "2022-11-15 13:15:16.681450",
+    "endDateTime": "2022-11-15 13:19:59.842343",
+    "elapsedTime": 283.1608929634094,
+    "hostname": "DESKTOP-LS960VJ",
+    "sessionUid": "6c669666-64d3-11ed-8b13-002b673250b3",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:04:43.160893"
+}
