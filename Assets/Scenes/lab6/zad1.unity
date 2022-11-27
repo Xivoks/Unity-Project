@@ -223,7 +223,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-73044
+  m_Name: pb_Mesh24880
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -727,6 +727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68503d13ac3ab554bb4976881bffbde0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  JUMP_FORCE: 100
 --- !u!135 &1181588132
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -811,7 +812,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28890
+  m_Name: pb_Mesh24846
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1417,8 +1418,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1785507396}
-  m_LocalRotation: {x: -0.21974282, y: -0.079717934, z: 0.018031804, w: -0.97212815}
-  m_LocalPosition: {x: 7.820608, y: 29.645527, z: -51.07631}
+  m_LocalRotation: {x: -0.5747569, y: -0.0004434734, z: 0.00020866093, w: -0.818324}
+  m_LocalPosition: {x: 11.309099, y: 16.348598, z: -9.974934}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
